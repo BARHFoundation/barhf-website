@@ -1,0 +1,53 @@
+body {
+    background-color: white;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+}
+
+.navbar-brand {
+    margin-left: 30px;
+}
+
+.navbar {
+    background-color: #302c55;
+    color: white;
+    margin-bottom: 70px;
+}
+
+.nav-link:hover {
+    color: #d9965f;
+    text-decoration: underline;
+}
+
+.navbar-nav {
+    margin-left: 100px;
+}
+
+#navbarNav > ul {
+    margin-left: 350px;
+}
+
+.nav-btn {
+    margin-left: 300px;
+    background-color: #d9965f;
+    border-radius: 20px;
+}
+
+#section1 {
+    text-align: center;
+}
+
+#section1 h2 {
+    font-weight: 600;
+}
+
+#section1 p {
+    font-size: larger;
+    font-weight: 500;
+}
+
+#section1 button {
+    background-color: #d9965f;
+    border-radius: 20px;
+}
