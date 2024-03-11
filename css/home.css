@@ -28,21 +28,17 @@ body {
 }
 
 .nav-btn {
-    margin-left: 300px;
     background-color: #d9965f;
     border-radius: 20px;
 }
 
-.section1-image {
-    height: 50px;
+.logo {
+    width: 100px;
 }
 
-.image-container {
-    position: relative;
-    width: 100%;
-}
 
-.overlay {
+
+/*.overlay {
     position: relative;
     overflow: hidden;
 }
@@ -63,6 +59,19 @@ body {
     height: auto;
     display: block;
     z-index: 1;
+}*/
+
+.bg-landing {
+    width: 100%;
+    height: 500px;
+    background-image: url(/images/barhf-home-li.jpeg);
+    background-size: cover;
+}
+
+.purple-scarf {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(38, 34, 75, 0.7);
 }
 
 .image-text {
@@ -73,7 +82,7 @@ body {
     margin-top: -400px;
 }
 
-.image-text  > button {
+.image-text  > a  button {
     background-color: #d9965f;
     border-radius: 20px;
 }
@@ -92,20 +101,47 @@ body {
 }
 
 
-.section2-btn1 {
-    background-color: aliceblue;
+.head-b {
+    background-color: #DFECEB;
     color: black;
     border-radius: 20px;
+    width: auto;
+    max-width: 138.4px;
+    max-height: 49.01px;
+    height: auto;
+    text-align: center;
+}
+
+.head-ba {
+    background-color: #DFECEB;
+    color: black;
+    width: auto;
+    max-width: 150.71px;
+    max-height: 48.9px;
+    height: auto;
+    text-align: center;
+    padding: 7.45px, 18.08px, 7.45px, 18.63px;
+    border-radius: 62.09px;
+
+}
+
+.head-b p {
+    font-weight: 400;
+    font-size: 17.51px;
+    line-height: 33.76px;
 }
 
 .section2-btn2 {
     background-color: #d9965f;
-    border-radius: 20px;
+    max-width: 169.46px;
+    max-height: 76.52px;
+   border-radius: 62.53px;
+   border: 1.25px;
+
 }
 
 .section2-image {
-    border-radius: 25px;
-    
+    border-radius: 25px;   
 }
 
 #section3 {
@@ -113,21 +149,69 @@ body {
     margin-bottom: 100px;
 }
 
+@media only screen and (max-width:768px) {
+    .bg-landing {
+        height: 250px;
+    }
+
+    .image-text {
+        position: relative;
+        color: white;
+        z-index: 2;
+        text-align: center;
+        margin-top: -210px;
+    }
+
+    body {
+        font-size: medium;
+    }
+    .section2-image {
+        width: 400px;
+    }
+    #section4, #section5 {
+         width: 350px;
+    }
+
+    #section1{
+        margin-bottom: 50px;
+    }
+    
+}
+
+@media only screen and (min-width:1024px) {
+    .nav-btn {
+        margin-left: 300px;
+    }  
+}
+
 .section3-div1 {
     margin-bottom: 70px;
+    text-align: center;
 }
 
 .wedo-card {
-    background-color: whitesmoke;
-    box-shadow: 0px 0px 10px rgb( 0, 0, 0, 0.5) ;
+    border: 0;
+    width: 325.85px;
+    height: 394px;
+    padding: 26.07px, 26.52px, 40.16px, 25.62px;
+    border-radius: 12.41px;
+    border: 1.24px;
+    background: #FFFFFF;
+    border: 1.24px solid #E8EEEC;
+    box-shadow: 0px 0px 24.826627731323242px 29.79195213317871px #10182808;
 }
 
-.wedo-card i {
-    font-size: 30px;
-    margin-right: 100px;
-    color: #d9965f;
-    background-color: aliceblue;
-    border: solid aliceblue;
+.wedo-card p {
+    font-size: larger;
+    text-align: start;
+}
+
+.wedo-card h5 {
+    font-weight: 700;
+}
+
+.wedo-logo {
+    margin-right: 300px;
 }
 
 .icon {
@@ -142,31 +226,39 @@ body {
 
 .section4-card {
     margin-left: 60px;
+    background-color: #FFFFFF01;
+    border: 1.24px solid #E8EEEC;
+    box-shadow: 0px -24.834810256958008px 29.80177116394043px 0px #10182808;
 }
 
 .section4-cardbody {
     text-align: left;
 }
 
-.section4-btn1 {
-    background-color: aliceblue;
-    color: black;
-    border-radius: 20px;
+.card-button {
+    margin-top: 60px;
 }
 
 .section4-btn2 {
-    background-color: #d9965f;
-    border-radius: 20px;
+    width: 150.55px;
+    height: 45px;
+    padding: 19.87px, 41.04px, 21.11px, 40.98px;
+    border-radius: 62.09px;
+    border: 1.24px;   
+    background-color: #DA9760; 
+    border: 1.24px solid #F9AE3B;
 }
 
 .section4-btn3 {
-    background-color: whitesmoke;
-    color: black;
-    border: 1px #d9965f solid;
-    border-radius: 20px;
     margin-left: 30px;
     width: 130px;
     height: 45px;
+    max-width: 183.95px;
+    max-height: 76.22px;
+    padding: 21.11px, 40.98px, 21.11px, 40.98px;
+    border-radius: 62.09px;
+    border: 1.24px solid #EFA968;
+    background-color: #FFFFFF;
 }
 
 #section5 {
@@ -178,11 +270,12 @@ body {
     border: 0;
 }
 
-.section5-btn1{
-    background-color: aliceblue;
-    color: black;
-    border-radius: 20px;
-    font-size: small;
+.head-box {
+    width: 142.25px;
+    height: 21.9px;
+    padding: 7.45px, 18.63px, 7.45px, 18.63px;
+    border-radius: 62.09px;
+    background-color: #609F9A33;
 }
 
 
@@ -192,9 +285,9 @@ body {
 }
 
 
-.section5-div1  p {
+.date {
     font-weight: 300;
-    font-size: small;
+    font-size: 11px;
 }
 
 .section5-div2 {
@@ -222,7 +315,7 @@ footer {
 
 #footer-sec1 {
     background-color: #302c55;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
     padding-bottom: 80px;
 }
 
@@ -241,6 +334,11 @@ footer {
 
 .footer-col {
     margin-top: 50px;
+}
+
+.footer-logo {
+    margin-right: 60px;
+    width: 100px;
 }
 
 .footer-icons {
