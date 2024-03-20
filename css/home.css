@@ -150,40 +150,8 @@ body {
     margin-bottom: 100px;
 }
 
-@media only screen and (max-width:767px) {
-    .bg-landing {
-        height: 250px;
-    }
 
-    .image-text {
-        position: relative;
-        color: white;
-        z-index: 2;
-        text-align: center;
-        margin-top: -210px;
-    }
 
-    body {
-        font-size: medium;
-    }
-    .section2-image {
-        width: 400px;
-    }
-    #section4, #section5 {
-         width: 350px;
-    }
-
-    #section1{
-        margin-bottom: 50px;
-    }
-    
-}
-
-@media only screen and (min-width:1024px) {
-    .nav-btn {
-        margin-left: 300px;
-    }  
-}
 
 .section3-div1 {
     margin-bottom: 70px;
@@ -240,6 +208,10 @@ body {
     margin-top: 60px;
 }
 
+.section4-div1 {
+    margin-bottom: 40px;
+}
+
 .section4-btn2 {
     width: 150.55px;
     height: 45px;
@@ -279,6 +251,10 @@ body {
     background-color: #609F9A33;
 }
 
+.section5-div {
+    margin-bottom: 40px;
+}
+
 
 .section5-div1 {
     display: flex;
@@ -305,7 +281,7 @@ body {
     color: black;
     border: 1px #d9965f solid;
     border-radius: 20px;
-    
+    margin-top: 30px;
 }
 
 footer {
@@ -363,4 +339,62 @@ footer {
 .footer-p2 {
     font-size: smaller;
     margin: 60px 40px 80px 0;
+}
+
+@media only screen and (max-width:767px) {
+    .bg-landing {
+        height: 270px;
+    }
+
+    .image-text {
+        position: relative;
+        color: white;
+        z-index: 2;
+        text-align: center;
+        margin-top: -250px;
+    }
+
+    body {
+        font-size: medium;
+    }
+    .section2-image {
+        margin-top: 30px;
+        width: 400px;
+    }
+
+    .wedo-card {
+        margin-left: -30px;
+    }
+
+    #section4, #section5 {
+         width: 350px;
+    }
+
+    #section1{
+        margin-bottom: 50px;
+    }
+
+    .nav-btn {
+        margin-left: -90px;
+    }  
+
+    .section4-btn3 {
+        margin-top: 30px;
+    }
+    
+}
+
+
+@media only screen and (min-width:1024px) {
+    .nav-btn {
+        margin-left: 300px;
+    }  
+
+    .card-margina {
+        margin-left: 25px;
+    }
+
+    .card-marginb {
+        margin-left: 50px;
+    }
 }
