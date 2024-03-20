@@ -9,13 +9,16 @@ body {
     margin-left: 30px;
 }
 
+.logo {
+    width: 100px;
+}
+
 .navbar {
     background-color: #302c55;
     color: white;
 }
 
-.nav-link:hover,
-.nav-link:active {
+.nav-link:hover {
     color: #d9965f;
     text-decoration: underline;
 }
@@ -29,14 +32,10 @@ body {
 }
 
 .nav-btn {
+    margin-left: 300px;
     background-color: #d9965f;
     border-radius: 20px;
 }
-
-.logo {
-    width: 100px;
-}
-
 
 
 /*.overlay {
@@ -374,9 +373,10 @@ footer {
         margin-bottom: 50px;
     }
 
+   
     .nav-btn {
         margin-left: -90px;
-    }  
+    } 
 
     .section4-btn3 {
         margin-top: 30px;
