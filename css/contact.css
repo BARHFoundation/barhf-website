@@ -72,12 +72,9 @@ body {
     background-color: white;
     border: 0;
     border-radius: 5px;
-    height: 40px;
+    height: 50px;
 }
 
-.textarea {
-    margin-right: 70px;
-}
 
 
 .bg-landing {
@@ -215,4 +212,38 @@ footer {
     .card-body p {
         font-size: small;
     }
+
+    .nav-btn {
+        margin-left: -90px;
+    } 
+
+    .section2-input  div input {
+        margin-bottom: 20px;
+    }
+
+    textarea {
+        margin-top: -40px;
+    }
 }
+
+
+
+@media only screen and (min-width:1024px) {
+    .nav-btn {
+        margin-left: 300px;
+    }  
+
+    .inputa {
+        margin-left: 35px;
+    }
+
+    .inputb {
+        margin-right: 50px;
+    }
+
+    textarea {
+        margin-right: 70px;
+        height: 200px; 
+        width: 850px;
+    }
+}   
