@@ -16,6 +16,7 @@ body {
 .navbar {
     background-color: #302c55;
     color: white;
+    width: 100%;
 }
 
 .nav-link:hover {
@@ -147,6 +148,7 @@ body {
 #section3 {
     text-align: center;
     margin-bottom: 100px;
+    width: 98%;
 }
 
 
@@ -287,16 +289,19 @@ footer {
     color: white;
     text-align: center;
     height: 500px;
+    width: 100%;
 }
 
 #footer-sec1 {
     background-color: #302c55;
     margin-bottom: 100px;
     padding-bottom: 80px;
+    width: 100%;
 }
 
 #footer-sec2 {
     background-color: #302c55;
+    width: 99.1%;
 }
 
 .footer-h2 {
@@ -389,6 +394,10 @@ footer {
     .nav-btn {
         margin-left: 300px;
     }  
+
+    /* .nav-btn {
+        margin-left: 140px;
+    }  */
 
     .card-margina {
         margin-left: 25px;
