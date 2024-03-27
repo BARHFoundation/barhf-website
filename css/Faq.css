@@ -37,6 +37,55 @@ body {
     margin-left: -90px;
 }
 
+#section1 {
+    margin-bottom: 100px;
+}
+
+.landing-page-img {
+    width: 100%;
+    height: 190px;
+    background-image: url(/images/barhf-donate\ now\ lp.png);
+    background-size: cover;
+    position: relative;
+}
+
+.dark-scarf {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(133, 79, 34, 0.1);
+}
+
+.image-text {
+    font-size: xx-small;
+    font-weight: bolder;
+    position: absolute;
+    top: 13%;
+    left: 15%;
+    text-align: center;
+    color: white;
+}
+
+#section2 {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#section2 h2 {
+    margin-bottom: 50px;
+}
+
+.dropdown-btn {
+    width: 320px;
+    background-color: aliceblue;
+    border: 1px solid;
+    margin-bottom: 20px;
+}
+
+.collapse-card {
+    width: 320px;
+    margin-left: 30px;
+}
+
 
 footer {
     color: white;
@@ -86,5 +135,18 @@ footer {
 @media  only screen and (min-width:1024px) {
     .nav-btn {
         margin-left: 300px;
+    }  
+
+    .landing-page-img {
+        width: 100%;
+        height: 300px;
+    }  
+
+    .image-text {
+        font-size: xx-small;
+        font-weight: bolder;
+        position: absolute;
+        top: 30%;
+        left: 40%;
     }  
 }
