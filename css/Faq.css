@@ -78,13 +78,16 @@ body {
     width: Fixed (570px)px;
     height: Hug (130px)px;
     padding: 21px 31px 21px 31px;
-    gap: 0px;
     border-radius: 10px 0px 0px 0px;
     border: 1px 0px 0px 0px;
-    opacity: 0px;
     background-color: #FFFFFF;
     border: 1px solid #E8EEEC;
     box-shadow: 0px 0px 20px 24px #10182808;
+    margin-bottom: 0px;
+}
+
+.accordion {
+    margin-top: -20px;
 }
 
 .accordion-body {
