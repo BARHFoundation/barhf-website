@@ -31,6 +31,10 @@ body {
     margin-left: 350px;
 }
 
+.navbar {
+    margin-left: -50px;
+}
+
 .nav-btn {
     background-color: #d9965f;
     border-radius: 20px;
@@ -147,9 +151,20 @@ footer {
 
 
 
+@media only screen and (min-width:767px)  and (max-width:1024px) {
+    .navbar {
+        margin-left: -40px;
+        margin-top: 5px;
+    }
+}
+
+
+
+
 @media  only screen and (min-width:1024px) {
     .nav-btn {
-        margin-left: 300px;
+        margin-left: 100px;
+        margin-top: -5px;
     }  
 
     .landing-page-img {

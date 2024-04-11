@@ -31,8 +31,13 @@ body {
     margin-left: 350px;
 }
 
+
+.navbar {
+    margin-left: -10px;
+}
+
 .nav-btn {
-    margin-left: 300px;
+    margin-left: -90px;
     background-color: #d9965f;
     border-radius: 20px;
 }
@@ -233,7 +238,7 @@ footer {
 
 
 
-@media only screen and (max-width:767px) {
+@media only screen and (min-width:767px)  and (max-width:1024px) {
     .section5-text {
         text-align: center;
     }
@@ -244,6 +249,10 @@ footer {
 
     .section6-card-row {
         margin-left: 60px;
+    }
+
+    .navbar {
+        margin-left: -40px;
     }
 }
 
@@ -300,5 +309,9 @@ footer {
 
     .section5-text1{
         margin-left: 6cqmax;
+    }
+    .nav-btn {
+        margin-left: 100px;
+        margin-top: -5px;
     }
 }
