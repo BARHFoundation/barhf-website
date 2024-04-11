@@ -31,8 +31,13 @@ body {
     margin-left: 350px;
 }
 
+
+.navbar {
+    margin-left: -50px;
+}
+
 .nav-btn {
-    margin-left: 300px;
+    margin-left: -90px;
     background-color: #d9965f;
     border-radius: 20px;
 }
@@ -186,60 +191,100 @@ footer {
     margin: 60px 40px 80px 0;
 }
 
+.bg-landing {
+    height: 190px;
+}
 
-@media only screen  and (max-width:768px)  {
-    .bg-landing {
-        height: 190px;
-    }
+.image-text {
+    position: absolute;
+    top: 15%;
+    left: 3%;
+    color: white;
+    font-size: medium;
+    font-weight: 900;
+}
 
-    .image-text {
-        position: absolute;
-        top: 15%;
-        left: 3%;
-        color: white;
-        font-size: medium;
-        font-weight: 900;
+.image-card {
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    width: 200px;
+    height: 110px;
+    text-align: center;
+}
+
+.card-body p {
+    font-size: small;
+}
+
+.section2-input  div input {
+    margin-bottom: 20px;
+}
+
+textarea {
+    margin-top: -40px;
+}
+
+
+@media only screen and (min-width:767px)  and (max-width:1024px) {
+ 
+
+    .navbar {
+        margin-left: -40px;
+        margin-top: -5px;
     }
 
     .image-card {
         position: absolute;
-        top: 10%;
+        top: 29%;
         left: 45%;
         width: 200px;
         height: 110px;
         text-align: center;
     }
 
-    .card-body p {
-        font-size: small;
+    .image-text {
+        position: absolute;
+        top: 35%;
+        left: 23%;
+        color: white;
+        font-size: medium;
+        font-weight: 900;
     }
 
     .nav-btn {
-        margin-left: -90px;
-    } 
-
-    .section2-input  div input {
-        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-top: -5px;
     }
 
-    textarea {
-        margin-top: -40px;
-    }
+    
 }
 
 
 
-@media only screen and (min-width:1024px) {
+
+@media only screen and (min-width:1024px)  {
     .nav-btn {
-        margin-left: 300px;
+        margin-left: 100px;
+        margin-top: -5px;
     }  
 
+    .navbar-nav {
+        margin-left: 100px;
+    }
+
     .inputa {
-        margin-left: 35px;
+        margin-left: 90px;
+        width: 250px;
     }
 
     .inputb {
-        margin-right: 50px;
+        width: 250px;
+    }
+
+    .inputc {
+        margin-right: 110px;
+        width: 250px;
     }
 
     textarea {
