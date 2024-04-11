@@ -1,0 +1,304 @@
+body {
+    background-color: white;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+}
+
+.navbar-brand {
+    margin-left: 30px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.navbar {
+    background-color: #302c55;
+    color: white;
+}
+
+.nav-link:hover {
+    color: #d9965f;
+    text-decoration: underline;
+}
+
+.navbar-nav {
+    margin-left: 100px;
+}
+
+#navbarNav > ul {
+    margin-left: 350px;
+}
+
+.nav-btn {
+    margin-left: 300px;
+    background-color: #d9965f;
+    border-radius: 20px;
+}
+
+#section1 {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#section1 h2 {
+    font-weight: 600;
+}
+
+#section1 p {
+    font-size: larger;
+    font-weight: 500;
+}
+
+#section1 button {
+    background-color: #d9965f;
+    border-radius: 20px;
+}
+
+.section2-div1 {
+    text-align: center;
+}
+
+.section2-div1 h3 {
+    font-weight: 600;
+}
+
+.head-box {
+    width: 108.22px;
+    height: Hug 39px;
+    padding: 6 14.449673652648926 6 14.7703275680542;
+    border-radius: 50px;   
+    background-color: #609F9A33;
+    text-align: center;
+    margin-left: 130px;
+}
+
+#section2 {
+    margin-bottom: 100px;
+}
+
+.image-ld {
+    width: 100%;
+    height: 200px;
+    background-image: url(/images/barhf-home-li.jpeg);
+    background-size: cover;
+}
+
+.dark-scarf {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+}
+
+#section3 {
+    margin-bottom: 100px;
+}
+
+#section3 .carda {
+    background-color: #302c55;
+    color: white;
+    margin-bottom: 50px;
+}
+
+#section3 .cardb {
+    background-color: #302c55;
+    color: white;
+}
+
+.section3-head-box {
+    width: 164px;
+    height:28px;
+    border-radius: 50px; 
+    border: 1   ;
+    background-color: #609F9A33;
+    border: 1px solid #FFFFFF;
+    margin-left: 120px;
+}
+
+#section4 {
+    margin-bottom: 100px;
+}
+
+#section4 .card {
+    background-color: #EFA968;
+    color: white;
+}
+
+#section5 {
+    margin-bottom: 100px;
+}
+
+.section4-btn {
+    width: 295px;
+    height:  41px;
+    padding: 17 33 17 33;
+    border-radius: 50px;
+    background-color: #302C55;
+    color: white;
+}
+
+
+.section5-btn1 {
+    background-color: #d9965f;
+    border-radius: 20px;
+}
+
+
+.section5-card {
+    margin-top: 20px;
+    margin-left: 60px;
+    width: 370px;
+    height: 261.8px;
+    gap: 0px;
+    border-radius: 10px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #FFFFFF01;
+    border: 1px solid #E8EEEC;
+    box-shadow: 0px 0px 20px 24px #10182808;
+}
+
+.section5-card div img {
+    margin-bottom: 30px;
+}
+
+#section6 {
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.section6-div1 h2{
+    color: #EFA968;
+}
+
+.section6-card-row {
+    margin-bottom: 40px;
+}
+
+.section6-card {
+    margin-bottom: 20px;
+    width:  233.67px;
+    height: 377.8px;
+    padding: 28.6px 0px 0px 0px;
+    border: 0px;
+    background-color: #F9FAFB;
+}
+
+
+footer {
+    color: white;
+    text-align: center;
+    background-color: #302c55;
+    width: 99.1%;
+}
+
+.footer-h2 {
+    padding: 40px 0 70px 0;
+}
+
+.footer-col {
+    margin-top: 50px;
+}
+
+.footer-logo {
+    margin-right: 60px;
+    width: 100px;
+}
+
+.footer-icons {
+    color: #d9965f;
+    margin: 15px;
+}
+
+.address {
+    color: #d9965f;
+    font-size: smaller;
+    text-align: start;
+}
+
+.footer-p  a {
+    text-decoration: none;
+    color: white;
+    font-size: small;
+    margin: 20px;
+}
+
+.footer-p2 {
+    font-size: smaller;
+    margin: 60px 40px 80px 0;
+}
+
+
+
+
+
+@media only screen and (max-width:767px) {
+    .section5-text {
+        text-align: center;
+    }
+
+    .section5-btn1 {
+        margin-right: 5px;
+    }
+
+    .section6-card-row {
+        margin-left: 60px;
+    }
+}
+
+
+
+
+
+
+@media only screen and (min-width:1024px) {
+    #section1 {
+        margin-top: 80px;
+    }
+
+    .head-box {
+        margin-left: 500px;
+    }
+
+    .image-ld {
+        height: 500px;
+    }
+
+    .section3-head-box  {
+        margin:50px  0 50px 500px;
+    }
+
+    #section3 .carda {
+        height: 400px;
+        font-size: larger;
+    }
+
+    #section3 .cardb {
+        height: 400px;
+        text-align: center;
+        font-size: larger;
+    }
+
+    .card-text1 {
+        text-align: start;
+        margin-left: 300px;
+    }
+
+    #section4 .card {
+        height: 200px;
+    }
+
+    .section4-cardbody {
+        margin-top: 30px;
+    }
+
+    .section5-btn1 {
+        margin-left: 220px;
+        margin-top: 120px;
+    }
+
+    .section5-text1{
+        margin-left: 6cqmax;
+    }
+}
