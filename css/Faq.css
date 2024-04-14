@@ -31,14 +31,16 @@ body {
     margin-left: 350px;
 }
 
+
+
 .navbar {
-    margin-left: -50px;
+    margin-left: -20px;
 }
 
 .nav-btn {
+    margin-left: -90px;
     background-color: #d9965f;
     border-radius: 20px;
-    margin-left: -90px;
 }
 
 #section1 {
