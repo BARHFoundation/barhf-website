@@ -33,8 +33,12 @@ body {
 
 
 
+.nav-item {
+    margin-left: -50px;
+}
+
 .navbar {
-    margin-left: -20px;
+    margin-left: -10px;
 }
 
 .nav-btn {

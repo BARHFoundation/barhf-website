@@ -27,14 +27,18 @@ body {
     margin-left: 100px;
 }
 
+
+
 #navbarNav > ul {
     margin-left: 350px;
 }
 
-
+.nav-item {
+    margin-left: -50px;
+}
 
 .navbar {
-    margin-left: -20px;
+    margin-left: -10px;
 }
 
 .nav-btn {
