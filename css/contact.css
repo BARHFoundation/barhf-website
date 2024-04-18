@@ -32,9 +32,7 @@ body {
 }
 
 
-.nav-item {
-    margin-left: -50px;
-}
+
 
 .navbar {
     margin-left: -10px;
@@ -230,6 +228,13 @@ footer {
 textarea {
     margin-top: -40px;
 }
+
+@media only screen and (max-width:600px) {
+
+    .nav-item {
+        margin-left: -50px;
+    }
+    }
 
 
 @media only screen and (min-width:767px)  and (max-width:1024px) {
