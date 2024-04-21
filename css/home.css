@@ -377,7 +377,19 @@ footer {
     }
 
     .wedo-card {
-        margin-left: -50px;
+       margin-left: -50px;     
+    }
+
+    .wedo-card p {
+        font-size: medium;
+    }
+
+    .wedo-card h5 {
+        font-weight: 400;
+    }
+    
+    .wedo-logo {
+        margin-right: 30px;
     }
 
     .section4-card {
