@@ -172,7 +172,11 @@ footer {
     color: white;
     text-align: center;
     background-color: #302c55;
-    width: 99.1%;
+    width: 95%;
+}
+
+.footer-col  p {
+    margin-left: 5px;
 }
 
 .footer-h2 {
@@ -237,7 +241,7 @@ textarea {
     }
 
 
-@media only screen and (min-width:767px)  and (max-width:1024px) {
+@media only screen and (min-width:767px)  and (max-width:1000px) {
  
 
     .navbar {
@@ -274,7 +278,56 @@ textarea {
 
 
 
-@media only screen and (min-width:1024px)  {
+@media only screen and (min-width:1000px)  and (max-width:1024px)  {
+    
+
+    #navbarNav {
+        margin-left: -200px;
+    }
+
+    .nav-btn {
+        margin-left: 100px;
+        width: 200px;
+        margin-top: -10px;
+    }
+
+    
+    footer { 
+        width: 98%;
+    }
+
+    .inputa {
+        margin-left: 80px;
+        width: 200px;
+    }
+
+    .inputb {
+        width: 200px;
+    }
+
+    .inputc {
+        margin-right: 110px;
+        width: 200px;
+    }
+
+
+    textarea {
+        margin-right: 70px;
+        height: 200px; 
+        width: 850px;
+    }
+
+    footer {
+        width: 99%;
+    }
+
+    
+}
+
+
+
+
+@media only screen and (min-width:1030px)  {
     .nav-btn {
         margin-left: 100px;
         margin-top: -5px;
@@ -331,5 +384,9 @@ textarea {
         margin-right: 70px;
         height: 200px; 
         width: 850px;
+    }
+
+    footer {
+        width: 99%;
     }
 }   

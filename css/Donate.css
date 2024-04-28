@@ -122,7 +122,7 @@ footer {
     color: white;
     text-align: center;
     background-color: #302c55;
-    width: 99.1%;
+    width: 95%;
 }
 
 .footer-h2 {
@@ -172,7 +172,7 @@ footer {
 }
 }
 
-@media only screen and (min-width:767px)  and (max-width:1024px) {
+@media only screen and (min-width:767px)  and (max-width:1000px) {
  
 
     .navbar {
@@ -183,7 +183,34 @@ footer {
 
 
 
-@media only screen and (min-width:1024px) {
+
+@media only screen and (min-width:1000px)  and (max-width:1024px)  {
+    
+
+    #navbarNav {
+        margin-left: -200px;
+    }
+
+    .nav-btn {
+        margin-left: 100px;
+        width: 200px;
+        margin-top: -10px;
+    }
+
+    .image-text {
+        top: 25%;
+        left: 45%;
+    }
+
+    footer {
+        width: 98.1%;
+    }
+}
+
+
+
+
+@media only screen and (min-width:1030px) {
     .section2-card { 
         width: 800px;
         margin-left: 150px;
@@ -202,7 +229,7 @@ footer {
     }
 
     .nav-btn {
-        margin-left: 100px;
+        margin-left: 230px;
     }  
 
     .modal-card1{
@@ -230,5 +257,9 @@ footer {
         color: black;
         background-color: white;
         border: 0px;
+    }
+
+    footer {
+        width: 99.1%;
     }
 }

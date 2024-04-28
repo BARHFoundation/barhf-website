@@ -114,7 +114,7 @@ footer {
     color: white;
     text-align: center;
     background-color: #302c55;
-    width: 99.1%;
+    width: 96%;
 }
 
 .footer-h2 {
@@ -154,25 +154,56 @@ footer {
 }
 
 
+
 @media only screen and (max-width:600px) {
 
     .nav-item {
         margin-left: -50px;
     }
     }
+    
+    @media only screen and (min-width:767px)  and (max-width:1000px) {
+     
+    
+        .navbar {
+            margin-left: -40px;
+            margin-top: -5px;
+        }
+    }  
 
 
-@media only screen and (min-width:767px)  and (max-width:1024px) {
-    .navbar {
-        margin-left: -40px;
-        margin-top: 5px;
+
+
+
+@media only screen and (min-width:1000px)  and (max-width:1024px)  {
+    
+
+    #navbarNav {
+        margin-left: -200px;
+    }
+
+    .nav-btn {
+        margin-left: 100px;
+        width: 200px;
+        margin-top: -10px;
+    }
+
+    .image-text {
+        font-size: xx-small;
+        font-weight: bolder;
+        position: absolute;
+        top: 25%;
+        left: 30%;
+    }  
+
+    footer {
+        width: 98%;
     }
 }
 
 
 
-
-@media  only screen and (min-width:1024px) {
+@media  only screen and (min-width:1030px) {
     .nav-btn {
         margin-left: 100px;
         margin-top: -5px;
@@ -190,4 +221,8 @@ footer {
         top: 30%;
         left: 40%;
     }  
+
+    footer {
+        width: 99.1%;
+    }
 }
