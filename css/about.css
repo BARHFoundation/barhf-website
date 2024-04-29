@@ -120,7 +120,6 @@ body {
     border: 1   ;
     background-color: #609F9A33;
     border: 1px solid #FFFFFF;
-    margin-left: 120px;
 }
 
 #section4 {
@@ -181,6 +180,7 @@ body {
 
 .section6-card-row {
     margin-bottom: 40px;
+    margin-left: 50px;
 }
 
 .section6-card {
@@ -197,7 +197,7 @@ footer {
     color: white;
     text-align: center;
     background-color: #302c55;
-    width: 99.1%;
+    width: 99%;
 }
 
 .footer-h2 {
@@ -242,10 +242,27 @@ footer {
     .nav-item {
         margin-left: -50px;
     }
+
+    .card-text1  {
+        text-align: start;
+    }
+
+    footer { 
+        width: 97%;
+    }
+
+    .footer-col  p {
+        margin-left: 5px;
+    }
+
+    .section3-head-box {
+        margin-left: 100px;
+    }
+
     }
 
 
-@media only screen and (min-width:767px)  and (max-width:1024px) {
+@media only screen and (min-width:767px)  and (max-width:1000px) {
     .section5-text {
         text-align: center;
     }
@@ -261,6 +278,43 @@ footer {
     .navbar {
         margin-left: -40px;
     }
+    
+   
+}
+
+
+
+
+
+@media only screen and (min-width:1000px)  and (max-width:1024px)  {
+    
+
+    #navbarNav {
+        margin-left: -200px;
+    }
+
+    .nav-btn {
+        margin-left: 100px;
+        width: 200px;
+        margin-top: -10px;
+    }
+
+    .head-box { 
+        margin-left: 420px;
+    }
+
+   .section3-head-box {
+    margin-left: 400px;
+    }
+
+    .section6-card {
+        width: 200px;
+    }
+
+    footer { 
+        width: 97%;
+    }
+
 }
 
 
@@ -268,7 +322,8 @@ footer {
 
 
 
-@media only screen and (min-width:1024px) {
+
+@media only screen and (min-width:1030px) {
     #section1 {
         margin-top: 80px;
     }
@@ -282,7 +337,7 @@ footer {
     }
 
     .section3-head-box  {
-        margin:50px  0 50px 500px;
+        margin:50px  0 50px 550px;
     }
 
     #section3 .carda {
@@ -298,7 +353,6 @@ footer {
 
     .card-text1 {
         text-align: start;
-        margin-left: 300px;
     }
 
     #section4 .card {
@@ -318,7 +372,7 @@ footer {
         margin-left: 6cqmax;
     }
     .nav-btn {
-        margin-left: 100px;
+        margin-left: 230px;
         margin-top: -5px;
     }
 }

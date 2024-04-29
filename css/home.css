@@ -27,7 +27,11 @@ body {
     margin-left: 100px;
 }
 
-
+.nav-btn {
+    margin-left: -90px; 
+    background-color: #d9965f;
+    border-radius: 20px;
+}
 
 #navbarNav > ul {
     margin-left: 350px;
@@ -39,11 +43,7 @@ body {
     margin-left: -10px;
 }
 
-.nav-btn {
-    margin-left: -90px;
-    background-color: #d9965f;
-    border-radius: 20px;
-}
+
 
 /*.overlay {
     position: relative;
@@ -95,7 +95,7 @@ body {
 }
 
 #section1{
-    margin-bottom: 300px;
+    margin-bottom: 400px;
 }
 
 #section2 {
@@ -167,9 +167,9 @@ body {
 
 .wedo-card {
     border: 0;
-    width: 325.85px;
+    width: 300.85px;
     height: 394px;
-    padding: 26.07px, 26.52px, 40.16px, 25.62px;
+    padding: 26.07px, 26.52px, 40.16px, 25.62px; 
     border-radius: 12.41px;
     border: 1.24px;
     background: #FFFFFF;
@@ -177,18 +177,12 @@ body {
     box-shadow: 0px 0px 24.826627731323242px 29.79195213317871px #10182808;
 }
 
-.wedo-card p {
-    font-size: larger;
-    text-align: start;
-}
 
 .wedo-card h5 {
     font-weight: 700;
 }
 
-.wedo-logo {
-    margin-right: 300px;
-}
+
 
 .icon {
     margin-top: 20px;
@@ -230,8 +224,7 @@ body {
 }
 
 .section4-btn3 {
-    margin-left: 30px;
-    width: 130px;
+    width: 150.55px;
     height: 45px;
     max-width: 183.95px;
     max-height: 76.22px;
@@ -288,6 +281,14 @@ body {
     color: black;
     border: 1px #d9965f solid;
     border-radius: 20px;
+    margin-top: px;
+}
+
+.section5-btn2a {
+    margin-top: 20px;
+}
+
+.section5-btn2b, .section5-btn2c {
     margin-top: 30px;
 }
 
@@ -307,7 +308,7 @@ footer {
 
 #footer-sec2 {
     background-color: #302c55;
-    width: 99.1%;
+    width: 99%;
 }
 
 .footer-h2 {
@@ -324,7 +325,7 @@ footer {
 }
 
 .footer-logo {
-    margin-right: 60px;
+   margin-right: 60px;
     width: 100px;
 }
 
@@ -343,7 +344,7 @@ footer {
     text-decoration: none;
     color: white;
     font-size: small;
-    margin: 20px;
+   margin: 20px;
 }
 
 .footer-p2 {
@@ -368,16 +369,21 @@ footer {
         margin-top: -250px;
     }
 
+    .head-b { 
+        margin-top: 70px;
+        margin-left: 100px;
+    }
+
     body {
         font-size: medium;
     }
     .section2-image {
         margin-top: 30px;
-        width: 300px;
+        width: 400px;
     }
 
     .wedo-card {
-       margin-left: -50px;     
+       margin: 0px 0px 20px 15px;    
     }
 
     .wedo-card p {
@@ -389,21 +395,24 @@ footer {
     }
     
     .wedo-logo {
-        margin-right: 30px;
+        margin-right: px;
+    }
+
+    #section4 {
+        margin-left: 0px;
     }
 
     .section4-card {
-        margin-left: 30px;
+        margin-left: 15px;
         width: 300px;
     }
 
     .section5-card {
         width: 330px;
-        margin-left: 10px;
     }
 
     #section4, #section5 {
-         width: 350px;
+         width: 340px;
     }
 
     #section1{
@@ -412,51 +421,116 @@ footer {
 
     .section4-btn3 {
         margin-top: 30px;
+        margin-right: 50px;
+    }
+
+
+    .section5-div p {
+        text-align: inherit;
+    }
+
+    #section5 {
+        width: 300px;
+   }
+    
+
+    .footer-sec2 {
+        margin-bottom: 0px;
+    }
+
+    .footer-col  p {
+        margin-left: 5px;
+    }
+
+    #footer-sec2 {
+        background-color: #302c55;
+        width: 96%;
     }
     
 }
 
-@media only screen and (min-width:767px)  and (max-width:1024px)  {
- 
-
-    .navbar {
-        margin-left: -40px;
-        margin-top: -5px;
-    }
-
-    .nav-btn {
-        margin-left: 10px;
-        margin-top: -5px;
-    }
-
+@media only screen and (min-width:768px)  and (max-width:1000px)  {
     .page {
         margin-top: 30px;
     }
 
-    .card-marginc {
-        margin-right: 200px;
+    .wedo-logo {
+        height: 100px;
+    }
+
+    .wedo-card {
+        border: 0;
+        width: 230px;
+        height: 400px;
+        margin-bottom: 30px;
+    }
+
+    .wedo-card p {
+    font-size: medium;
+    text-align: start;
+}
+
+    /*.card-margina {
+        margin-left: 25px;
+    }
+
+    .card-marginb {
+        margin-left: 50px;
+    }*/
+
+}
+
+@media only screen and (min-width:1000px)  and (max-width:1024px)  {
+    
+
+    #navbarNav {
+        margin-left: -200px;
+    }
+
+    .nav-btn {
+        margin-left: 100px;
+        width: 200px;
+        margin-top: -10px;
+    }
+
+    .wedo-card {
+        border: 0;
+        width: 300px;
+        height: 400px;
+        margin-bottom: 30px;
+    }
+
+    .wedo-logo {
+        height: 100px;
     }
 }
 
-@media only screen and (min-width:1024px)  {
+@media only screen and (min-width:1030px)  {
     .nav-btn {
-        margin-left: 100px;
+        margin-left: 230px;
         margin-top: -5px;
+        background-color: #d9965f;
+        border-radius: 20px;
     }  
 
     .navbar-nav {
         margin-left: 100px;
     }
 
+    .wedo-card p {
+        font-size: larger;
+        text-align: start;
+    }
+
+    .section4-btn3 {
+        margin-left: 30px;
+    }
+
     /* .nav-btn {
         margin-left: 140px;
     }  */
 
-    .card-margina {
-        margin-left: 25px;
-    }
-
-    .card-marginb {
-        margin-left: 50px;
+    .wedo-card {
+        height: 420px;
     }
 }
