@@ -168,15 +168,12 @@ body {
     background-color: #DFECEB;
 }
 
+
 footer {
     color: white;
     text-align: center;
     background-color: #302c55;
-    width: 95%;
-}
-
-.footer-col  p {
-    margin-left: 5px;
+   
 }
 
 .footer-h2 {
@@ -194,7 +191,7 @@ footer {
 
 .footer-icons {
     color: #d9965f;
-    margin: 15px;
+    margin: 10px;
 }
 
 .address {
@@ -212,7 +209,7 @@ footer {
 
 .footer-p2 {
     font-size: smaller;
-    margin: 60px 40px 80px 0;
+    margin: 60px 40px 0px 0;
 }
 
 .bg-landing {
@@ -386,7 +383,4 @@ textarea {
         width: 850px;
     }
 
-    footer {
-        width: 99%;
-    }
 }   
