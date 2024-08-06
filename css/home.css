@@ -89,7 +89,7 @@ body {
     margin-top: -400px;
 }
 
-.image-text  > a  button {
+.image-textbtn{
     background-color: #d9965f;
     border-radius: 20px;
 }
@@ -367,6 +367,11 @@ footer {
         margin-top: -250px;
     }
 
+    .image-textbtn {
+        margin-top: 20px; 
+        margin-left: 150px; 
+    }
+
     .head-b { 
         margin-top: 70px;
         margin-left: 100px;
@@ -401,7 +406,7 @@ footer {
     }
 
     .section4-card {
-        margin-left: 50px;
+        margin-left: 40px;
         width: 300px;
     }
 
@@ -428,10 +433,28 @@ footer {
         margin-left: 5px;
     }
 
+    .socail-handle{
+         margin-right: 50px; 
+    }
+
     
 }
 
 @media only screen and (min-width:768px)  and (max-width:1000px)  {
+   
+    .image-text {
+        position: relative;
+        color: white;
+        z-index: 2;
+        text-align: center;
+        margin-top: -300px;
+    }
+   
+    .image-textbtn {
+        margin-top: 20px; 
+        margin-left: 330px; 
+    }
+    
     .page {
         margin-top: 30px;
     }
@@ -452,14 +475,34 @@ footer {
     text-align: start;
 }
 
+.section4-card {
+    margin-right: 70px;
+}
+
 .footer-p  a {
     margin: 15px;
+}
+
+.socail-handle{
+    margin-right: 50px; 
 }
 
 }
 
 @media only screen and (min-width:1000px)  and (max-width:1024px)  {
     
+    .image-text {
+        position: relative;
+        color: white;
+        z-index: 2;
+        text-align: center;
+        margin-top: -300px;
+    }
+   
+    .image-textbtn {
+        margin-top: 20px; 
+        margin-left: 470px; 
+    }
 
     #navbarNav {
         margin-left: -200px;
@@ -481,6 +524,10 @@ footer {
     .wedo-logo {
         height: 100px;
     }
+
+    .socail-handle{
+        margin-right: 50px; 
+    }
 }
 
 @media only screen and (min-width:1030px)  {
@@ -490,6 +537,32 @@ footer {
         background-color: #d9965f;
         border-radius: 20px;
     }  
+
+    .image-texts1 {
+        font-size: 50px;
+        display: block;
+    }
+    .image-texts2 {
+        display: block;
+    }
+
+    .image-textbtn {
+        margin-top: 20px;
+        width: 200px;
+        margin-left: 550px;
+    }
+
+    #section2 {
+        margin-top: -100px;
+    }
+
+    .section2-btn2 {
+        width: 300px;
+    }
+
+    .wedo {
+        margin-top: -40px;
+    }
 
     .navbar-nav {
         margin-left: 100px;
@@ -504,11 +577,20 @@ footer {
         margin-left: 30px;
     }
 
+    #section4 {
+        margin-top: -80px;
+    }
+
     /* .nav-btn {
         margin-left: 140px;
     }  */
 
     .wedo-card {
         height: 420px;
+    }
+
+    .footer-logo {
+        margin-left: 50px;
+        width: 100px;
     }
 }

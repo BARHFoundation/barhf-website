@@ -192,6 +192,12 @@ body {
     background-color: #F9FAFB;
 }
 
+.team-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
 
 footer {
     color: white;
@@ -237,6 +243,8 @@ footer {
 }
 
 
+
+
 @media only screen and (max-width:600px) {
 
     .nav-item {
@@ -260,9 +268,9 @@ footer {
     }
 
     .socail-handle{
+        margin-right: 50px; 
         margin-top: 30px;
     }
-   
 
     }
 
@@ -299,9 +307,14 @@ footer {
         height: auto;
     }
 
-  .section6-card-row {
+
+  .section6-card {
     margin-left: -70px;
   }
+
+  .section6-lastcard {
+    margin-left: 200px;
+}
 
     .navbar {
         margin-left: -40px;
@@ -309,6 +322,10 @@ footer {
 
     .footer-p  a {
         margin: 15px;
+    }
+
+    .socail-handle{
+        margin-right: 50px; 
     }
 
 }
@@ -344,6 +361,14 @@ footer {
 
     .section6-card {
         width: 200px;
+    }
+
+    .section6-lastcard {
+        margin-left: 350px;
+    }
+
+    .socail-handle{
+        margin-right: 50px; 
     }
 
 }
@@ -407,12 +432,17 @@ footer {
         margin-top: -5px;
     }
 
-    footer {
-        height: 300px;
+    .section6-lastcard {
+        margin-left: 400px;
     }
 
     .footer-icons {
         color: #d9965f;
         margin: 15px;
+    }
+
+    .footer-logo {
+        margin-left: 50px;
+        width: 100px;
     }
 }

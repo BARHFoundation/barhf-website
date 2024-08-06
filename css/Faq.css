@@ -221,4 +221,9 @@ footer {
         top: 30%;
         left: 40%;
     }  
+
+    .footer-logo {
+        margin-left: 50px;
+        width: 100px;
+    }
 }
