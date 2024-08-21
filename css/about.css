@@ -153,8 +153,8 @@ body {
 
 .section5-card {
     margin-top: 20px;
-    margin-left: 60px;
-    width: 370px;
+    margin-left: 40px;
+    width: 300px;
     height: 261.8px;
     gap: 0px;
     border-radius: 10px 0px 0px 0px;
@@ -192,12 +192,18 @@ body {
     background-color: #F9FAFB;
 }
 
+.team-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
 
 footer {
     color: white;
     text-align: center;
     background-color: #302c55;
-    width: 99%;
+   
 }
 
 .footer-h2 {
@@ -215,7 +221,7 @@ footer {
 
 .footer-icons {
     color: #d9965f;
-    margin: 15px;
+    margin: 10px;
 }
 
 .address {
@@ -233,8 +239,10 @@ footer {
 
 .footer-p2 {
     font-size: smaller;
-    margin: 60px 40px 80px 0;
+    margin: 60px 40px 0px 0;
 }
+
+
 
 
 @media only screen and (max-width:600px) {
@@ -247,22 +255,45 @@ footer {
         text-align: start;
     }
 
-    footer { 
-        width: 97%;
-    }
-
-    .footer-col  p {
+    /*.footer-col  p {
         margin-left: 5px;
-    }
+    }*/
 
     .section3-head-box {
         margin-left: 100px;
+    }
+
+    .footer-logo {
+        margin-top: 30px;
+    }
+
+    .socail-handle{
+        margin-right: 50px; 
+        margin-top: 30px;
     }
 
     }
 
 
 @media only screen and (min-width:767px)  and (max-width:1000px) {
+
+    .section5-row {
+        margin-left: -70px;
+    }
+
+    .section5-card {
+        width: 200px;
+        height: auto;
+    }
+
+    .head-box {
+        margin-left: 300px;
+    }
+
+    .section3-head-box {
+        margin-left: 280px;
+    }
+
     .section5-text {
         text-align: center;
     }
@@ -271,15 +302,32 @@ footer {
         margin-right: 5px;
     }
 
-    .section6-card-row {
-        margin-left: 60px;
+    .section6-card {
+        width: 180px;
+        height: auto;
     }
+
+
+  .section6-card {
+    margin-left: -70px;
+  }
+
+  .section6-lastcard {
+    margin-left: 200px;
+}
 
     .navbar {
         margin-left: -40px;
     }
-    
-   
+
+    .footer-p  a {
+        margin: 15px;
+    }
+
+    .socail-handle{
+        margin-right: 50px; 
+    }
+
 }
 
 
@@ -307,12 +355,20 @@ footer {
     margin-left: 400px;
     }
 
+    .section5-row {
+        margin-left: -70px;
+    }
+
     .section6-card {
         width: 200px;
     }
 
-    footer { 
-        width: 97%;
+    .section6-lastcard {
+        margin-left: 350px;
+    }
+
+    .socail-handle{
+        margin-right: 50px; 
     }
 
 }
@@ -374,5 +430,19 @@ footer {
     .nav-btn {
         margin-left: 230px;
         margin-top: -5px;
+    }
+
+    .section6-lastcard {
+        margin-left: 400px;
+    }
+
+    .footer-icons {
+        color: #d9965f;
+        margin: 15px;
+    }
+
+    .footer-logo {
+        margin-left: 50px;
+        width: 100px;
     }
 }
