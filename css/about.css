@@ -46,7 +46,8 @@ body {
 
 #section1 {
     text-align: center;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 70px;
 }
 
 #section1 h2 {
@@ -155,7 +156,7 @@ body {
     margin-top: 20px;
     margin-left: 40px;
     width: 300px;
-    height: 261.8px;
+    height: 310px;
     gap: 0px;
     border-radius: 10px 0px 0px 0px;
     border: 1px 0px 0px 0px;
@@ -202,8 +203,7 @@ body {
 footer {
     color: white;
     text-align: center;
-    background-color: #302c55;
-   
+    background-color: #302c55;  
 }
 
 .footer-h2 {
@@ -259,19 +259,23 @@ footer {
         margin-left: 5px;
     }*/
 
+    .head-box {
+      margin-left: 120px;
+    }  
+
     .section3-head-box {
-        margin-left: 100px;
+        margin-left: 90px;
+        margin-bottom: 10px;
     }
 
-    .footer-logo {
-        margin-top: 30px;
+   
+    .footer-col  p {
+        margin-left: 5px;
     }
 
     .socail-handle{
-        margin-right: 50px; 
-        margin-top: 30px;
+         margin-right: 50px; 
     }
-
     }
 
 

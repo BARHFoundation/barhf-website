@@ -132,6 +132,7 @@ body {
 
 }
 
+
 .head-b p {
     font-weight: 400;
     font-size: 17.51px;
@@ -305,13 +306,13 @@ body {
 .slide-card {
     background-color: rgba(29, 24, 82, 0.6);
     color: white;
+    height: 150px;
 }
 
 footer {
     color: white;
     text-align: center;
-    background-color: #302c55;
-   
+    background-color: #302c55;  
 }
 
 .footer-h2 {
@@ -364,12 +365,12 @@ footer {
         color: white;
         z-index: 2;
         text-align: center;
-        margin-top: -250px;
+        margin-top: -230px;
     }
 
     .image-textbtn {
         margin-top: 20px; 
-        margin-left: 150px; 
+        margin-left: 140px; 
     }
 
     .head-b { 
@@ -380,6 +381,7 @@ footer {
     body {
         font-size: medium;
     }
+
     .section2-image {
         margin-top: 30px;
         width: 400px;
@@ -406,7 +408,7 @@ footer {
     }
 
     .section4-card {
-        margin-left: 40px;
+        margin-left: 30px;
         width: 300px;
     }
 
@@ -528,6 +530,10 @@ footer {
     .socail-handle{
         margin-right: 50px; 
     }
+
+    .footer-p2 {
+        margin: 60px 0px 0px 10px;
+    }
 }
 
 @media only screen and (min-width:1030px)  {
@@ -592,5 +598,9 @@ footer {
     .footer-logo {
         margin-left: 50px;
         width: 100px;
+    }
+
+    .footer-p2 {
+        margin: 60px 0px 0px 10px;
     }
 }
